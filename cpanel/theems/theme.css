@@ -1,0 +1,149 @@
+﻿@font-face
+{
+	font-family:abc;
+	src:url(../../Fonts/DroidKufi-Bold.eot),
+	url(../../Fonts/DroidKufi-Bold.ttf),
+	url(../../Fonts/DroidKufi-Bold.woff),
+	url(../../Fonts/DroidKufi-Bold.woff2);	
+}
+
+body,html
+{
+    background-color: black;
+    direction: rtl;
+    margin-left:auto;
+    margin-right:auto;
+	font-family:abc;
+}
+
+ .logo
+{
+	float:right;
+	height:110px;
+	margin-top:0px;
+	margin-left:0px;
+}
+
+a
+{
+    font-family: abc;
+    font-size: 13px;
+    color: #36678f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: red;
+}
+
+
+h1
+{
+    font-family: abc;
+    font-size: 22px;
+    color: #2d4b93;
+    font-weight: bolder;
+}
+
+h3
+{
+    font-family: abc;
+    font-size: 16px;
+    color: #050560;
+    font-weight: bolder;
+}
+
+h4
+{
+    font-family: abc;
+    font-size: 14px;
+    color: #050560;
+    font-weight: bolder;
+}
+
+
+p
+{
+    font-family: abc;
+    font-size: 15px;
+    color: #000;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.outBorder
+{
+    border: solid 1px white;
+    padding:8px;
+    background-color:black;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Maintable
+{
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    text-align: left;
+    position: static;
+}
+
+.MyBottomBar
+{
+    text-align: center;
+    vertical-align: top;
+    border-top: solid 1px #040507;
+}
+
+.MyTopNavBar
+{
+    text-align: left;
+    vertical-align:middle;
+    border-bottom: solid 1px #040507;
+}
+
+.imgHeader
+{
+    width:200px;
+    height:120px;
+    float:left;
+}
+
+.titleHeader
+{
+    float:left;
+    left:-70px;
+    position:relative;
+}
+
+/*-------------------- start of default page of control panel ----------------------------------------*/
+    .defaultPage
+    {
+        margin-top:20px;
+        margin-bottom:20px;
+        width:100%;
+       
+    }
+    
+    .defaultPage td
+    {
+        padding:20px;
+          text-align:center;
+        vertical-align:middle; 
+    }
+    
+    .defaultPage img
+    {
+        max-width:150px;
+        max-height:100px;
+        border:none;
+    }
+    
+        
+    
+/*----------------------   end of default page of contro panel ----------------------------------*/

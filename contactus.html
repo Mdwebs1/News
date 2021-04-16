@@ -1,0 +1,202 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<link href="theems/main.css" rel="stylesheet" type="text/css" media="all">
+
+<!--<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>-->
+<script type="text/javascript" src="js/clock.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<link rel="icon" type="image/png" href="images/slider/2346-01.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+</head>
+
+<body onLoad="showTime(),fade()">
+
+	<div class="socialicons">
+ 		<a href="#"><img src="images/socialmediaicons/facebook.png"/></a>
+ 		<a href="#"><img src="images/socialmediaicons/twitter.png"/></a>
+ 		<a href="#"><img src="images/socialmediaicons/youtube.png"/></a>
+	</div>
+
+	<div class="wrapper">
+    	<div class="top-bar">
+        	<p class="clock" id="MyClockDisplay"></p>
+            <img class="logo" src="images/slider/2346-01.png"/>
+	        <p class="marquee">
+                <marquee onMouseOver="this.stop()" onMouseOut="this.start()" 
+                	direction="left" behavior="scroll">
+            		أفضل موقع عربي للأخبار العالمية والمحلية
+                	<img src="images/newsbarbreak.jpg">
+                   	أفضل موقع عربي للأخبار العالمية والمحلية
+                	<img src="images/newsbarbreak.jpg">
+                    أفضل موقع عربي للأخبار العالمية والمحلية
+  					<img src="images/newsbarbreak.jpg">                
+                    أفضل موقع عربي للأخبار العالمية والمحلية
+  					<img src="images/newsbarbreak.jpg">               
+  				</marquee>
+            </p>
+        </div>
+        <div class="slider">
+        
+        	<img id="slide1" class="slider-img-hide" name="slide" 
+            	title="أفضل موقع عربي للأخبار العالمية والمحلية" 
+            	src="images/slider/3.jpg"/>
+            <img id="slide2"  class="slider-img-hide" name="slide" 
+            	title="بالمعرفة نصنع المستقبل" 
+            	src="images/slider/2.jpg"/>
+  			<img id="slide3"  class="slider-img-hide" name="slide" 
+            	title="نحدث تغيير في العالم بمعرفة كل ما هو جديد" 
+            	src="images/slider/shutterstock_128059520.jpg"/>
+            <img id="slide4"  class="slider-img-hide" name="slide" 
+            	title="كـن متقدمـا على الدوام بالمعرفه في وقتها المباشر" 
+            	src="images/slider/slideer.jpg"/>
+            <img id="slide5"  class="slider-img-hide" name="slide" 
+            	title="معنا تحـقق النجـــاح الأمثل بالاطلاع" 
+            	src="images/slider/5.jpg"/>
+            <img id="slide6"  class="slider-img-hide" name="slide" 
+            	title="أفضل موقع عربي للأخبار العالمية والمحلية" 
+            	src="images/slider/6.jpg"/>
+                
+            <h1 id="slideTitle"></h1>
+        </div>
+        <div class="top-nav-bar">
+        	<ul>
+            	<li><a href="index.html">الرئيسية</a></li>
+            	<li><a href="worldnews.html">اخبارعالمية</a></li>
+                <li><a href="localnews.html">اخبار محلية</a></li>
+                <li><a href="topics.html">مقالات وآراء</a></li>
+                <li><a href="contactus.html">تواصل معنا</a></li>
+                <li><a href="aboutus.html">ماذا عنا</a></li>                
+            </ul>
+        </div>
+        <div class="main-content">
+        	<div class="right-side">
+             
+             	<!--  تواصــــــل معنا --->
+    <div class="rightSectionDiv">
+         <h3>تواصــــــل معنا</h3>
+         <div class="rightSectionContentSide">
+         	<center>
+              <label style="display:inline-block;
+              	width:70%;font-family:abc; text-align:center;
+                    font-size:14px;margin-bottom:10px;">
+                    
+                    
+              </label>
+              <form action="" method="post">
+              	<input type="text" name="subject" required 
+                	autocomplete="off" maxlength="100" 
+                    autofocus placeholder="ادرج عنوان الرساله هنا"
+                     style="width:70%;font-family:abc;font-size:18px;
+                     border-radius:10px;padding:5px"/>
+                <br/>
+                <textarea name="msg" required maxlength="500"
+                	placeholder="ادرج عنوان الرساله هنا" 
+                	style="width:70%;height:400px;font-family:abc;
+                	font-size:18px;border-radius:10px;padding:5px"></textarea>
+                <br/>
+                <input type="submit" value="ارسل الرساله"
+                	style="width:50%;font-family:abc;
+                    font-size:12px;border-radius:7px;
+                    padding:3px;margin-bottom:10px;"/>
+              </form>
+            </center>
+         </div>
+   </div>
+                
+            </div>
+            <div class="left-side">
+           	 
+             	<div class="leftSectionDiv">
+              		<h3>مشاركــــــة</h3>
+              			<div class="leftSectionContentSide">
+							<form action='' method='post'>
+                  				<div class='login'>
+                    				<input type='text' name='login_name' 
+                        			class='login_nametext' required  
+									placeholder='اسم المستخدم'/>
+									<input type='password' name='pwd' required
+                        			class='pwdtext' 
+									placeholder='كلمة المرور'
+                         			onfocus='this.value='';'/>
+                    				<br/>
+									<input type='submit' value='دخول' 
+                            		class='button'/>
+                    				<br/>
+									<a href='#' class="smallfont">نسيت كلمة المرور</a>
+									<a href='#' class="smallfont">عضوية جديدة</a>
+								</div>
+                			</form>
+              			</div>
+            	</div>
+            
+            	<div class="leftSectionDiv">
+              		<h3>احصائيات</h3>
+              		<div class="leftSectionContentSide">
+               		<table>
+                  <tr>
+                    <td><label>عدد الأخبار العالمية</label></td>
+                    <td><label>15</label></td>
+                  </tr>
+                  <tr>
+                    <td><label>عدد الاخبار المحلية</label></td>
+                    <td><label>20</label></td>
+                  </tr>
+                  <tr>
+                    <td><label> عدد المقالات والأرآء </label></td>
+                    <td><label>25</label></td>
+                  </tr>
+                </table>
+              	</div>
+            </div>
+            
+            	<div class="leftSectionDiv">
+              		<h3>تصويت</h3>
+              		<div class="leftSectionContentSide">
+                    <form action="" method="get">
+                      <table>
+                        <tr>
+                          <td>
+                          		<input type="radio" name="vote" 
+                                        value="1"/>
+                            	<label>ممتاز</label>
+                          </td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                          		<input type="radio" name="vote" 
+                                        value="2"/>
+                            	<label>جيد</label>
+                          </td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                          		<input type="radio" name="vote" 
+                                        value="3"/>
+                            	<label>مقبول</label>
+                       	 </td>
+                         <td></td>
+                       </tr>
+                       <tr>
+                          <td class="text-left" colspan="2">
+                          		<input type="submit" value="تصويت" 
+                                    class="button"/>
+                          </td>
+                        </tr>
+                      </table>
+                    </form>
+             	</div>
+            </div>
+             
+            </div>
+        </div>
+		<div class="footer">
+        	<p>كافة الحقوق محفوظه للموقع 2020</p>
+        </div>
+    </div>
+
+</body>
+</html>
